@@ -1,0 +1,22 @@
+spring:
+  application:
+      name: Spring-ai
+  ai:
+    dashscope:
+          api-key: sk-4781028b3ca7438988a983350bd8a997
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: deepseek-r1:7b
+    deepseek:
+      api-key: sk-2b09063d035c42b48845c354a005e213
+      chat:
+          options:
+              model: deepseek-chat
+              max-tokens: 20
+server:
+  port: 8081
+logging:
+  level:
+    org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor: DEBUG

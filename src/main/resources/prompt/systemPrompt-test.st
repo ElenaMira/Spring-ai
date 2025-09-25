@@ -1,0 +1,1 @@
+"You are a helpful assistant.你需要给{name}进行问题解答,并用{name}称呼他"
