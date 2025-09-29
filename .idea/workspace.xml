@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="417be90a-68a1-4743-86b5-72b13e2e5d75" name="更改" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springai/tools/ToolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springai/tools/ToolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springai/tools/ToolServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/RAG/tokenSplitterTest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SQL/V1_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mcp/baiduMap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/prompt/TicketSystemPrompt.st" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/springai/ChatClient/TestEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/springai/FluxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/springai/Memory/TestJDBCAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/springai/Memory/TestRedisMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/springai/RAG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/springai/TokenSplitterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/springai/VectorStoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/springai/tools/TestcustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/springai/Controller/MorPlatformAndModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/springai/Controller/MorPlatformAndModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/springai/util/ChatMemoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/springai/util/ChatMemoryConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/springai/ChatMemoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/springai/Memory/ChatMemoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/springai/Controller/MorPlatformAndModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/springai/Controller/MorPlatformAndModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/springai/util/ChatMemoryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/springai/util/ChatMemoryConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/springai/ChatMemoryTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ElenaMira&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="7aac0b6d-f1a9-4eae-833e-d0884e5af211" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ElenaMira/Spring-ai.git&quot;,
+    &quot;accountId&quot;: &quot;7aac0b6d-f1a9-4eae-833e-d0884e5af211&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/ms-17.0.16/lib/src.zip!/java.base/java/io/PrintStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/ms-17.0.16/lib/src.zip!/java.base/java/util/function/Supplier.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/io/projectreactor/reactor-core/3.7.9/reactor-core-3.7.9.jar!/reactor/core/publisher/Flux.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar!/org/slf4j/Logger.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar!/org/slf4j/LoggerFactory.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/springframework/ai/spring-ai-advisors-vector-store/1.0.0/spring-ai-advisors-vector-store-1.0.0.jar!/org/springframework/ai/chat/client/advisor/vectorstore/QuestionAnswerAdvisor.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/springframework/ai/spring-ai-client-chat/1.0.0/spring-ai-client-chat-1.0.0.jar!/org/springframework/ai/chat/client/advisor/SimpleLoggerAdvisor.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/springframework/ai/spring-ai-commons/1.0.0/spring-ai-commons-1.0.0.jar!/org/springframework/ai/document/Document.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/springframework/ai/spring-ai-commons/1.0.0/spring-ai-commons-1.0.0.jar!/org/springframework/ai/document/DocumentReader.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/springframework/ai/spring-ai-commons/1.0.0/spring-ai-commons-1.0.0.jar!/org/springframework/ai/transformer/splitter/TextSplitter.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/springframework/ai/spring-ai-commons/1.0.0/spring-ai-commons-1.0.0.jar!/org/springframework/ai/transformer/splitter/TokenTextSplitter.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/springframework/ai/spring-ai-model-chat-memory-repository-jdbc/1.0.0/spring-ai-model-chat-memory-repository-jdbc-1.0.0.jar!/org/springframework/ai/chat/memory/repository/jdbc/JdbcChatMemoryRepository.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/springframework/ai/spring-ai-vector-store/1.0.0/spring-ai-vector-store-1.0.0.jar!/org/springframework/ai/vectorstore/SimpleVectorStore.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/springframework/boot/spring-boot/3.5.5/spring-boot-3.5.5.jar!/org/springframework/boot/context/logging/LoggingApplicationListener.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/springframework/spring-web/6.2.10/spring-web-6.2.10.jar!/org/springframework/web/bind/annotation/RequestBody.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/software/apache-maven-3.9.10-bin/apache-maven-3.9.10/repository/org/springframework/spring-web/6.2.10/spring-web-6.2.10.jar!/org/springframework/web/bind/annotation/RestController.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+        <option name="userSettingsFile" value="F:\software\apache-maven-3.9.10-bin\apache-maven-3.9.10\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="21" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="32MOUhxHjBphOMALA5qHue22XCu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AdvisorTest.ChatMemoryTest.executor": "Debug",
+    "JUnit.AdvisorTest.ReReadingAdvisorTest.executor": "Debug",
+    "JUnit.AdvisorTest.testChatClientStream.executor": "Debug",
+    "JUnit.ChatMemoryTest.Test.executor": "Debug",
+    "JUnit.ChatMemoryTest.executor": "Debug",
+    "JUnit.FluxTest.Flux.executor": "Debug",
+    "JUnit.FluxTest.Mono.executor": "Debug",
+    "JUnit.FluxTest.test.executor": "Debug",
+    "JUnit.RAG.test.executor": "Debug",
+    "JUnit.SnowflakeIDWorker.test.executor": "Debug",
+    "JUnit.SpringAiApplicationTests.executor": "Debug",
+    "JUnit.SpringAiApplicationTests.test (1).executor": "Debug",
+    "JUnit.SpringAiApplicationTests.test.executor": "Debug",
+    "JUnit.SpringAiApplicationTests.testChat (1).executor": "Debug",
+    "JUnit.SpringAiApplicationTests.testChat.executor": "Debug",
+    "JUnit.SpringAiApplicationTests.testChatClient.executor": "Debug",
+    "JUnit.SpringAiApplicationTests.testChatClientStream.executor": "Debug",
+    "JUnit.SpringAiApplicationTests.testQwen.executor": "Debug",
+    "JUnit.TestEntity.Test.executor": "Debug",
+    "JUnit.TestJDBCAdvisor.Test.executor": "Debug",
+    "JUnit.TestRedisMemory.Test.executor": "Debug",
+    "JUnit.TokenSplitterTest.executor": "Debug",
+    "JUnit.TokenSplitterTest.test.executor": "Debug",
+    "JUnit.VectorStore.test.executor": "Debug",
+    "JUnit.VectorStoreTest.executor": "Debug",
+    "JUnit.VectorStoreTest.test (1).executor": "Debug",
+    "JUnit.VectorStoreTest.test.executor": "Debug",
+    "JUnit.VectorStoreTest.test2.executor": "Debug",
+    "Maven.Spring-ai [clean].executor": "Run",
+    "Maven.Spring-ai [install].executor": "Run",
+    "Maven.Spring-ai [test].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.SpringAiApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "mysql_aurora"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.FluxTest.Flux">
+    <configuration name="FluxTest.Flux" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-ai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.springai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.springai" />
+      <option name="MAIN_CLASS_NAME" value="org.example.springai.FluxTest" />
+      <option name="METHOD_NAME" value="Flux" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FluxTest.Mono" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-ai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.springai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.springai" />
+      <option name="MAIN_CLASS_NAME" value="org.example.springai.FluxTest" />
+      <option name="METHOD_NAME" value="Mono" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FluxTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-ai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.springai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.springai" />
+      <option name="MAIN_CLASS_NAME" value="org.example.springai.FluxTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenSplitterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-ai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.springai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.springai" />
+      <option name="MAIN_CLASS_NAME" value="org.example.springai.TokenSplitterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenSplitterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-ai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.springai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.springai" />
+      <option name="MAIN_CLASS_NAME" value="org.example.springai.TokenSplitterTest" />
+      <option name="METHOD_NAME" value="test(org.springframework.core.io.Resource)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-ai" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.springai.SpringAiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FluxTest.Flux" />
+        <item itemvalue="JUnit.TokenSplitterTest.test" />
+        <item itemvalue="JUnit.TokenSplitterTest" />
+        <item itemvalue="JUnit.FluxTest.test" />
+        <item itemvalue="JUnit.FluxTest.Mono" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="逻辑" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="417be90a-68a1-4743-86b5-72b13e2e5d75" name="更改" comment="" />
+      <created>1757226991634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757226991634</updated>
+      <workItem from="1757226992573" duration="19176000" />
+      <workItem from="1757558022680" duration="4569000" />
+      <workItem from="1758688794782" duration="27000" />
+      <workItem from="1758777282761" duration="48310000" />
+      <workItem from="1758950084269" duration="4892000" />
+      <workItem from="1758955165908" duration="37000" />
+      <workItem from="1758955218082" duration="8490000" />
+      <workItem from="1759049912922" duration="3258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+</project>

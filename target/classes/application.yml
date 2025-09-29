@@ -4,6 +4,15 @@ spring:
   ai:
     dashscope:
           api-key: sk-4781028b3ca7438988a983350bd8a997
+          embedding:
+            options:
+              dimensions: 2048
+    memory:
+      redis:
+        host: 192.168.80.137
+        port: 6379
+        password: zss200417
+        timeout: 5000
     ollama:
       base-url: http://localhost:11434
       chat:
@@ -15,8 +24,32 @@ spring:
           options:
               model: deepseek-chat
               max-tokens: 20
+    chat:
+      memory:
+        repository:
+          jdbc:
+            initialize-schema: always
+            schema: classpath:/SQL/V1_init.sql
+#    mcp:
+#      client:
+#        request-timeout: 20s
+#        stdio:
+#          servers-configuration: classpath:/mcp/baiduMap.json
+  datasource:
+    username: root
+    password: zss200417
+    url: jdbc:mysql://localhost:3306/spring-ai?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
 server:
   port: 8081
-logging:
-  level:
-    org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor: DEBUG
+#logging:
+#  level:
+#    org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor: DEBUG
+#    org.springframework.ai.chat.client.advisor.vectorstore.QuestionAnswerAdvisor: DEBUG
+#    io:
+#      modelcontextprotocol:
+#        client: DEBUG
+#        spec: DEBUG
+

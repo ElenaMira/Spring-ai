@@ -66,11 +66,6 @@ public class MorPlatformAndModel {
                 .stream()
                 .content();
 //        流式返回不能直接System
-//        System.out.println("question:"+question);
-//        System.out.println("platform:"+platform);
-//        System.out.println("model:"+option.getModel());
-//        System.out.println("temperature:"+option.getTemperature());
-//        System.out.println("content:"+content);
         return content;
     }
 }
